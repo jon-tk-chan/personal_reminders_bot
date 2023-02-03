@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    font-family: Inter;
+    margin:0px; 
+}
+
+.info {
+    background-color: #1A1B21;
+}
+.info--img {
+    text-align:center;
+    margin: auto;
+    display: block;
+    width:400px;
+    max-height:300px;
+    object-fit: cover;
+    object-position: 50% 100%;
+}
+
+.info--name {
+    text-align: center;
+    color: #FFFFFF; 
+    font-size: 25px;
+    margin-bottom: 5px; 
+}
+
+.info--jobtitle {
+    text-align: center;
+    color: #F3BF99; 
+    font-size: 15px;
+    margin-bottom:10px;
+}
+
+.info--website {
+    text-align: center;
+    color: #F3BF99; 
+    font-size: 10px;
+}
+
+.info--buttons {
+    display:flex;
+    text-align: center;
+    justify-content: center; 
+    padding-top: 10px;
+
+}
+
+.icon--email_button {
+    display:flex;
+    margin: 0px 30px 0px 0px;
+    background-color: #D1D5DB;
+    width: 115px;
+    height: 35px;
+    border-radius: 7px;
+    font-size: 14px;
+
+
+    
+}
+.email-logo {
+    max-width: 20px;
+    max-height: 20px;
+    text-align: center;
+    margin: auto;
+    
+}
+.email-text {
+    color: #374151;
+    font-size: 20 px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.info--linkedin_button {
+    display: flex;
+    margin: 0px 0px 30px 0px;
+    background-color: #5093E2;
+    width: 115px;
+    height: 35px;
+    border-radius: 7px;
+    font-size: 14px;
+    
+}
+
+
+.info--linkedin_button > p {
+    color: #FFFFFF;
+    text-align: center;
+    margin: auto;
+    
+}
+    
+.linkedin-logo {
+    max-width: 20px;
+    max-height: 20px;
+    text-align: center;
+    margin: auto;
+    color: #FFFFFF;
+    filter: brightness(0) invert(1);
+}
+    
+
+.about {
+    background-color: #1A1B21;
+}
+.about--header {
+    color: #FFFFFF; 
+    font-size: 25px;
+    margin: 0px 25px 0px 25px; 
+}
+.about--text {
+    color: #FFFFFF; 
+    font-size: 12px;
+    margin: 10px 25px 0px 25px; 
+    padding-bottom: 15px; 
+}
+
+.audience {
+    background-color: #1A1B21;
+}
+.audience--header {
+    color: #FFFFFF; 
+    font-size: 25px;
+    margin: 0px 25px 0px 25px; 
+}
+.audience--text {
+    color: #FFFFFF; 
+    font-size: 12px;
+    margin: 10px 25px 0px 25px; 
+    padding-bottom: 30px;
+    
+}
+
+
+.footer {
+    background-color: #161619;
+    display:flex;
+    text-align: center;
+    justify-content: center;    
+}
+
+.icon--facebook {
+    max-height: 35px;
+    max-width: 35px;
+    margin: 15px;
+    filter: brightness(0) invert(1);
+}
+.icon--twitter {
+    max-height: 35px;
+    max-width: 35px;
+    margin: 15px;
+    filter: brightness(0) invert(1);
+}
+
+.icon--instagram {
+    max-height: 35px;
+    max-width: 35px;
+    margin: 15px;
+    filter: brightness(0) invert(1);
+}
+
+.icon--github {
+    max-height: 35px;
+    max-width: 35px;
+    margin: 15px;
+    color: #918E9B;
+    filter: brightness(0) invert(1);
+}
