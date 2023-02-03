@@ -1,6 +1,8 @@
 # artfornormies
 Code to preprocess personal writing text.
 
+Twitter bot was created using Cheap Bots, Done Quick! https://cheapbotsdonequick.com/ 
+
 
 
 Working bot: https://twitter.com/artfornormies 
